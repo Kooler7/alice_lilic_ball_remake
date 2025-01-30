@@ -1,0 +1,172 @@
+[gd_scene load_steps=2 format=3 uid="uid://stvyrte4i3w0"]
+
+[ext_resource type="Script" path="res://levels/level_1/level_1.gd" id="1_vi070"]
+
+[node name="Level_1" type="Node"]
+script = ExtResource("1_vi070")
+
+[node name="LevelViewer" type="Node" parent="."]
+
+[node name="Location_1" type="Node2D" parent="LevelViewer"]
+process_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="LevelViewer/Location_1"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.444238, 0.443243, 3.85046e-07, 1)
+
+[node name="Label" type="Label" parent="LevelViewer/Location_1/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -182.0
+offset_top = -42.0
+offset_right = 196.0
+offset_bottom = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 100
+text = "Level_1 Location_1"
+
+[node name="Location_2" type="Node2D" parent="LevelViewer"]
+process_mode = 1
+position = Vector2(1920, -1080)
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="LevelViewer/Location_2"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.444238, 0.443243, 3.85046e-07, 1)
+
+[node name="Label" type="Label" parent="LevelViewer/Location_2/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -182.0
+offset_top = -42.0
+offset_right = 196.0
+offset_bottom = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 100
+text = "Level_1 Location_2"
+
+[node name="Location_3" type="Node2D" parent="LevelViewer"]
+process_mode = 1
+position = Vector2(1920, 1080)
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="LevelViewer/Location_3"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.444238, 0.443243, 3.85046e-07, 1)
+
+[node name="Label" type="Label" parent="LevelViewer/Location_3/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -182.0
+offset_top = -42.0
+offset_right = 196.0
+offset_bottom = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 100
+text = "Level_1 Location_3
+"
+
+[node name="Location_4" type="Node2D" parent="LevelViewer"]
+process_mode = 1
+position = Vector2(3840, 0)
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="LevelViewer/Location_4"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.444238, 0.443243, 3.85046e-07, 1)
+
+[node name="Label" type="Label" parent="LevelViewer/Location_4/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -182.0
+offset_top = -42.0
+offset_right = 196.0
+offset_bottom = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 100
+text = "Level_1 Location_4
+"
+
+[node name="Arcade" type="Node2D" parent="LevelViewer"]
+process_mode = 1
+position = Vector2(-1920, -1080)
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="LevelViewer/Arcade"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.058001, 0.463507, 0.611336, 1)
+
+[node name="Label" type="Label" parent="LevelViewer/Arcade/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -182.0
+offset_top = -42.0
+offset_right = 196.0
+offset_bottom = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 100
+text = "Arcade
+
+"
+
+[node name="GameMenu" type="Node2D" parent="LevelViewer"]
+process_mode = 1
+position = Vector2(-1920, 1080)
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="LevelViewer/GameMenu"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.703063, 0.135985, 0.561689, 1)
+
+[node name="Label" type="Label" parent="LevelViewer/GameMenu/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -182.0
+offset_top = -42.0
+offset_right = 196.0
+offset_bottom = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 100
+text = "GameMenu
+
+"
+
+[node name="LevelCamera" type="Camera2D" parent="."]
+anchor_mode = 0

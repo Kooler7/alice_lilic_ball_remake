@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1738236776
+game.tscn::PackedScene::2979801411733922745::1738174776::0::1::::<><>::uid://c0lilbjc532go::::res://player/player.tscn
+icon.svg::CompressedTexture2D::3198505375932871754::1738076525::1738076531::1::::<><>::
+::res://levels/::1738077553
+::res://levels/level_1/::1738077553
+::res://player/::1738174776
+player.gd::GDScript::-1::1738169725::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::6550776059865437574::1738174776::0::1::::<><>::res://player/player.gd<>res://player/fsm/fsm.gd
+::res://player/fsm/::1738169612
+fsm.gd::GDScript::-1::1738169612::0::1::::StateMachine<>Node<>::
+state.gd::GDScript::-1::1738089336::0::1::::State<>Node<>::

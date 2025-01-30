@@ -1,0 +1,11 @@
+Node
+CollisionShape2D
+NavigationRegion2D
+ColorRect
+CharacterBody2D
+Node2D
+Camera2D
+Label
+ProgressBar
+TextureRect
+Control

@@ -1,0 +1,4 @@
+res://levels/level_1/level_1.tscn
+res://levels/level_1/location_viewer.gd
+res://game.tscn
+res://levels/level_1/level_1.gd
