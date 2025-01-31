@@ -1,9 +1,2 @@
-res://player/player.tscn
-res://player/player.gd
-res://player/fsm/state.gd
-res://player/fsm/player_state.gd
-res://player/fsm.gd
-res://player/fsm/idle.gd
-res://player/fsm/walk.gd
-res://levels/level_1/level_1.tscn
 res://game.tscn
+res://levels/level_1/level_1.tscn
