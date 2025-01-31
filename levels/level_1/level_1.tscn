@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://stvyrte4i3w0"]
+[gd_scene load_steps=3 format=3 uid="uid://stvyrte4i3w0"]
 
 [ext_resource type="Script" path="res://levels/level_1/level_1.gd" id="1_vi070"]
+[ext_resource type="PackedScene" uid="uid://dxheumgsstqoe" path="res://player/player.tscn" id="2_nsbak"]
 
 [node name="Level_1" type="Node"]
 script = ExtResource("1_vi070")
@@ -170,3 +171,6 @@ text = "GameMenu
 
 [node name="LevelCamera" type="Camera2D" parent="."]
 anchor_mode = 0
+
+[node name="Player" parent="." instance=ExtResource("2_nsbak")]
+position = Vector2(525, 312)

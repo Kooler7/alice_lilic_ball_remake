@@ -4,15 +4,14 @@ extends Node
 
 var state_machine = null
 
-
 func inner_unhandled_input(_event: InputEvent) -> void:
 	pass
 
-func inner_process(_delta: float) -> void:
+func inner_process(delta: float) -> void:
 	pass
 
-func enter(_msg : Dictionary={}):
+func enter() -> void:
 	pass
 
-func exit():
+func exit() -> void:
 	pass
